@@ -1,3 +1,3 @@
 class Patient < ApplicationRecord
-  belongs_to :appointments
+  has_many :appointments
 end
